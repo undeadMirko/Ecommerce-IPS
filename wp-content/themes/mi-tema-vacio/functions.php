@@ -26,7 +26,7 @@ function create_casos_exito_cpt() { #Función para crear el Custom Post Type "Ca
         'menu_icon' => 'dashicons-admin-generic', # Icono del menú en el admin
         'public' => true, # El post type es público
         'has_archive' => true, # Habilita el archivo para este post type (para que se puedan listar todos los casos de éxito en una página de archivo)
-        'show_in_rest' => true, # Habilita la compatibilidad con el editor de bloques
+        #'show_in_rest' => true, # Habilita la compatibilidad con el editor de bloques
         'supports' => array('title', 'editor', 'thumbnail'), # Sirve como un Alias para llamar directamente a las características del post-type (en este caso, título, editor y thumbnail)
     );
 
@@ -56,7 +56,7 @@ function create_procedimientos_taxonomy() { #Función para crear la taxonomía "
         'labels' => $labels, # Usa las etiquetas de nombres que definimos en $labels
         'hierarchical' => true, # Habilita la jerarquía (como categorías)
         'public' => true, # La taxonomía es pública, si está en false, nadie verá los Casos de Éxito en la web.
-        'show_in_rest' => true, # Habilita la compatibilidad con el editor de bloques
+        #'show_in_rest' => true, # Habilita la compatibilidad con el editor de bloques  
         'show_ui' => true, # Muestra la interfaz de usuario en el admin
         'show_in_menu' => true, # Muestra la taxonomía en el menú del admin
     );
