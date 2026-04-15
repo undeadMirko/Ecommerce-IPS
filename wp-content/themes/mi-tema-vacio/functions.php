@@ -63,4 +63,4 @@ function create_procedimientos_taxonomy() { #Función para crear la taxonomía "
     register_taxonomy('procedimientos', array('casos_exito'), $args); # Registramos la taxonomía con el slug 'procedimientos', asociada al post-type 'casos_exito' y con los argumentos definidos de arriba 
     }
 add_action('init', 'create_procedimientos_taxonomy'); # Hook para ejecutar la función de creación de la taxonomía en la inicialización de WordPress
-# Con este hook, nos aseguramos de que la taxonomía se registre correctamente cada vez que WordPress se inicialice, lo que es esencial para que esté disponible en el panel de administración y en el sitio web.
+# Con este hook, nos aseguramos de que la taxonomía se registre correctamente cada vez que WordPress se inicialice, lo que es esencial para que esté disponible en el panel de administración y en el sitio web. 

@@ -102,4 +102,4 @@ $lista_usuarios = $wpdb->get_results("SELECT * FROM $tabla");
 
     <?php wp_footer(); ?>
 </body>
-</html>
+</html> 
