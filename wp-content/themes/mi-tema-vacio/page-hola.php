@@ -38,3 +38,4 @@ Template Name: Diseño Especial Hola
     <?php wp_footer(); ?>
 </body>
 </html>
+ 
